@@ -115,7 +115,7 @@ body {
   height:100vh;
   width:100vw;
   visibility: visible;
-  background-image: url('/level_1/img/lifelight.png');
+  background-image: url('../img/lifelight.png');
   background-size: 100vw;
 
   
@@ -124,7 +124,7 @@ body {
 /* click */
 #btn:before {
   position:absolute;
-  background-image: url('/level_1/img/lifedark.png');
+  background-image: url('../img/lifedark.png');
   background-size: 100vw;
   height:100vh;
   width:100vw;
