@@ -46,6 +46,10 @@ $(document).ready(function() {
   });
 });
 
+var video = document.getElementById("bg-video");
+video.addEventListener("ended", function () {
+  video.play();
+});
 
 
 
