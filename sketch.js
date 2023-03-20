@@ -51,6 +51,21 @@ video.addEventListener("ended", function () {
   video.play();
 });
 
+let numClicks = 0;
+
+document.addEventListener('click', function() {
+  numClicks++;
+
+  if (numClicks === 10) {
+
+    window.open('level_tv/tv.html', '_blank', 'width=200,height=screen.height');
+
+   
+  }
+});
+
+
+
 
 
 
