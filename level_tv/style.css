@@ -1,0 +1,30 @@
+
+
+body {
+    background-color: white; /* default background color */
+  }
+  
+  body.hover {
+    background-color: blue; /* new background color when hovering over #hover-element */
+  }
+  
+.container {
+    position: absolute; 
+    
+    
+}
+
+#remote {
+    position:absolute;
+    width:200px;
+    left: 40vw;
+    top:50vh;
+
+}
+
+#remote:hover{
+    top: 40vh;
+    transition: ease-in-out 2s;
+    cursor:grabbing;
+}
+
