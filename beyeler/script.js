@@ -1,3 +1,5 @@
+window.resizeTo(window.Width, window.Height);
+
 const splitWords = () => {
   const textNode = document.querySelector(".text");
   const text = textNode.textContent;
